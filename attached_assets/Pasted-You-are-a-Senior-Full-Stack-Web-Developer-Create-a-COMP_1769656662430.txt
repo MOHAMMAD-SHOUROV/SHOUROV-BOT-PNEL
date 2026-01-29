@@ -1,0 +1,135 @@
+You are a Senior Full-Stack Web Developer.
+
+Create a COMPLETE, PRODUCTION-READY,
+dark futuristic SaaS-style dashboard
+named:
+
+“SHOUROV BOT CONTROL PANEL”
+
+━━━━━━━━━━━━━━━━━━
+TECH STACK (MUST FOLLOW)
+━━━━━━━━━━━━━━━━━━
+- Vite
+- React
+- TypeScript (TSX)
+- React Router v6
+- Do NOT use Next.js
+- Do NOT use CDN React
+- Must work on:
+  - PC Browser
+  - Mobile Browser
+  - Termux + Node
+- Must successfully build using:
+  npm install
+  npm run build
+- After build, there must be NO white screen or black blank screen
+
+━━━━━━━━━━━━━━━━━━
+DESIGN / UI (VERY IMPORTANT)
+━━━━━━━━━━━━━━━━━━
+- Dark futuristic neon UI
+- No white screen
+- No black blank screen
+- Sidebar navigation with glow + hover animation
+- Touch or hover should trigger light/glow effects
+- Each card must have a different neon color
+- Smooth animations and transitions everywhere
+- Fully mobile responsive
+- Professional SaaS admin panel look
+
+━━━━━━━━━━━━━━━━━━
+PAGES (ALL REQUIRED – TSX FILES)
+━━━━━━━━━━━━━━━━━━
+- LoginPage.tsx
+  - Authentication using localStorage
+- DashboardHome.tsx
+- ControlPage.tsx
+- FeatureToggles.tsx
+- GroupControlPage.tsx
+- ApiManagementPage.tsx
+- LogsPage.tsx
+
+━━━━━━━━━━━━━━━━━━
+FUNCTIONALITY
+━━━━━━━━━━━━━━━━━━
+- If user is not logged in → redirect to Login page
+- After login → Dashboard loads
+- Logout clears localStorage
+- Do NOT use cookies (localStorage only)
+- Bot control buttons:
+  - Start
+  - Stop
+  - Restart
+- Feature toggle switches
+- Console-style Logs page (realistic fake logs, not empty)
+- Dashboard stats cards:
+  - Bot Status
+  - Uptime
+  - Messages
+  - Threads
+- Show:
+  - How many groups the bot is added to
+  - Who are bot admins
+  - Bot storage usage
+  - Bot files list
+  - Ability to view files
+  - Ability to change/edit files (frontend demo)
+- Show current Bangladesh time
+- Social icons:
+  - Facebook
+  - WhatsApp
+  - Telegram
+  - Clicking icons should open contact (frontend demo)
+- Neon lights across the panel with changing colors
+- Every button, card, and section must have different neon colors
+- Touch or hover anywhere should trigger light/glow animations
+- Add any extra useful dashboard features if needed
+
+IMPORTANT:
+The entire panel must be connected through index.html
+so it can be integrated easily with an existing bot backend index file.
+Must run properly on Render deployment.
+
+━━━━━━━━━━━━━━━━━━
+EXTRA UI FEATURES
+━━━━━━━━━━━━━━━━━━
+- Top cover video (autoplay muted)
+- On touch / click, video sound should play
+- Profile picture upload option (frontend only)
+- Hovering cards and buttons should trigger neon glow animations
+- Smooth futuristic neon animations everywhere
+
+━━━━━━━━━━━━━━━━━━
+BUILD BEHAVIOR (CRITICAL)
+━━━━━━━━━━━━━━━━━━
+- index.html must correctly load src/main.tsx
+- After `npm run build`, the output must include:
+  - dist/index.html
+  - dist/assets/*.js
+  - dist/assets/*.css
+- No missing assets
+- Page refresh must NOT break routing
+- No blank screen issues
+
+━━━━━━━━━━━━━━━━━━
+OUTPUT FORMAT (STRICT RULES)
+━━━━━━━━━━━━━━━━━━
+- Provide FULL project folder structure
+- Provide FULL code for EVERY file
+- Each file must be in a separate code block
+- Code must be ready to copy-paste and run
+- Do NOT skip any file
+- Do NOT provide partial code
+- Do NOT explain the code
+- ONLY provide working code
+
+━━━━━━━━━━━━━━━━━━
+FINAL NOTE
+━━━━━━━━━━━━━━━━━━
+This project must run correctly on:
+- Termux
+- PC browsers
+- Mobile browsers
+
+There must be absolutely NO white screen
+and NO black blank screen issues.

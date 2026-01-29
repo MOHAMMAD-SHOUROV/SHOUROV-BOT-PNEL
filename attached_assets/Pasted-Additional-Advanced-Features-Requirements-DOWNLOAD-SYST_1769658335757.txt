@@ -1,0 +1,71 @@
+Additional Advanced Features & Requirements:
+
+DOWNLOAD SYSTEM
+- The control panel must include a complete download system.
+- Users must be able to download:
+  - Videos
+  - Images
+  - Files
+  - Logs (simulated)
+- A Video Download API section must be included.
+- Multiple download-related APIs must be supported (Video, Media, File APIs).
+- The system must allow adding new API endpoints later without UI break.
+- API placeholders must be clearly designed so backend API links can be added later.
+- Each download/API card must have its own neon color and animated glow effect.
+
+API EXPANSION
+- The panel must support adding 10–12 APIs initially.
+- Users must be able to:
+  - Add new APIs (name, endpoint, key/token)
+  - Enable / disable APIs
+  - Remove APIs
+- APIs can include:
+  - Video API
+  - Image API
+  - AI API
+  - Download API
+  - Custom APIs
+- Each API must display:
+  - Status (Active / Inactive)
+  - Neon indicator light
+- API cards must animate with different neon colors automatically.
+
+AI ASSISTANT (VERY IMPORTANT)
+- A built-in AI assistant must be present in the bottom corner of the screen.
+- The assistant must have:
+  - A floating circular icon
+  - Neon glow animation
+  - Label text: “Shourov AI”
+- Clicking the icon opens a chat-style assistant panel.
+- The AI assistant must:
+  - Answer questions in BOTH English and Bangla
+  - Respond like a helpful system assistant
+  - Support simple dashboard-related questions (simulated responses are fine)
+- The AI assistant UI must feel modern, clean, and futuristic.
+- The assistant must always stay visible on the dashboard (fixed position).
+
+UI & EXPERIENCE
+- The entire display must have automatic animated neon lighting.
+- Different sections must glow with different colors.
+- Touching or hovering anywhere must trigger light effects.
+- Animations must be smooth and continuous.
+- No blank white or black screens are allowed.
+- The panel must look premium and professional like a real SaaS product.
+
+COMPATIBILITY
+- Must work perfectly on:
+  - PC browsers
+  - Mobile browsers
+  - Termux + Node
+- Must build correctly using:
+  npm install
+  npm run build
+- After build:
+  - dist/index.html must exist
+  - dist/assets/*.js and *.css must load correctly
+  - No missing assets
+  - No routing issues on refresh
+
+FINAL NOTE
+- Everything must be connected through index.html so it can be integrated easily into the main bot system.
+- The panel must feel complete, futuristic, and production-ready.
